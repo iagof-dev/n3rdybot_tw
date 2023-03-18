@@ -34,10 +34,10 @@ namespace N3rdyBot
         /// Twitter API config.
         ///
 
-        public static string tw_acesskey = "1167213824543535108-FeJtSxKedVZZXwt0Ft4fzAlVG7k81o";
-        public static string tw_acesskeysec = "FOYkWjV9VuB80ZdsiWyoR0DaOpDlDw1N252lBw0XtuWew";
-        public static string tw_apikey = "0bUruAaKf6oYXGP2LvBTuTU6x";
-        public static string tw_apikeysec = "7Tn4cUO8O6UjlA6kE8qiLvYm9bB0u6nzqu7Qbbf2oprIsdrRZz";
+        public static string tw_acesskey = "";
+        public static string tw_acesskeysec = "";
+        public static string tw_apikey = "";
+        public static string tw_apikeysec = "";
         public static TwitterCredentials userCredentials = new TwitterCredentials(tw_apikey, tw_apikeysec, tw_acesskey, tw_acesskeysec);
         public static TwitterClient userClient = new TwitterClient(userCredentials);
 
@@ -45,9 +45,9 @@ namespace N3rdyBot
         ///
         /// Banco de Dados Flexível
         /// 
-        public static string db_server = "db.n3rdydzn.software";
-        public static string db_user = "nrdydesi_bot";
-        public static string db_pass = "N3rdygamerbr@123";
+        public static string db_server = "";
+        public static string db_user = "";
+        public static string db_pass = "";
         public static string db_table = "bot_resp";
         public static string db_database = "nrdydesi_n3rdybot";
         public static string db_dados = "server=" + db_server + ";uid=" + db_user + ";pwd=" + db_pass + ";database=" + db_database + "";
